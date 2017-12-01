@@ -1,0 +1,6 @@
+/*
+ * Use me if you want your p elements to be centered; just add me as a stylesheet after the default.css
+ */
+p{
+	text-align:center;
+}
