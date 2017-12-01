@@ -5,11 +5,12 @@
 	padding: 3%;
 }
 
+
 .header{
 
     display: flex;
     flex-direction: column;
-   
+
 }
 
 .nav{
@@ -36,11 +37,6 @@
 }
 
 .nav{
-}
-
-audio{
-    visibility:hidden;
-
 }
 
 body{
@@ -91,7 +87,6 @@ img{
 }
 
 
-
 @media only screen and (min-width:800px){
     .page{
         max-width:800px;
@@ -138,6 +133,6 @@ img{
 	h1{
 		line-height:1.0;/*fixes spacing if heading is too small for 1 line*/
 	}
-    
+
 
 }
