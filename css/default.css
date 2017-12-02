@@ -36,8 +36,6 @@
 
 }
 
-.nav{
-}
 
 body{
     background-color:slategrey;
@@ -86,6 +84,9 @@ img{
 	box-shadow: 0 0 2p dimgrey;
 }
 
+#complete{
+    display:none;
+}
 
 @media only screen and (min-width:800px){
     .page{
