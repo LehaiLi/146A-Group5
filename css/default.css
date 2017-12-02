@@ -5,11 +5,12 @@
 	padding: 3%;
 }
 
+
 .header{
 
     display: flex;
     flex-direction: column;
-   
+
 }
 
 .nav{
@@ -35,11 +36,6 @@
 
 }
 
-
-audio{
-    visibility:hidden;
-
-}
 
 body{
     background-color:slategrey;
@@ -138,6 +134,6 @@ img{
 	h1{
 		line-height:1.0;/*fixes spacing if heading is too small for 1 line*/
 	}
-    
+
 
 }
