@@ -6,3 +6,9 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
    vertical-align: baseline;
    border: 0;
 }
+
+.rev{
+    background-color: white;
+    color: black;
+}
+
