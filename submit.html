@@ -31,18 +31,54 @@
             <h3>Want to Submit your own Spooky Place?</h3>
 
             <!-- This page will have JS Submission fields -->
-            <p>Name of Location:</p>
+            <form name="sub" id="sub" autocomplete="off" enctype="multipart/form-data" method="post" onsubmit="enterForm(); return false">
+                <fieldset>
+                    <legend>Submit a Location</legend>
+                    
+                    <label for="name" class="label">Name of Location:</label>
+                    <input type="text" name="name" id="name" required/>
+                    
+                    <br>
+                    
+                    <label for="desc" class="label">Description (What makes it Spooky?):</label>
+                    <input type="text" name="desc" id="desc" required/>
+                    
+                    <br>
+                    
+                    <label for="state" class="label" >State</label>
+                    <select name="state" id="state">
+                        <option value="NJ">New Jersey</option>
+                        <option value="NY">New York</option>
+                    </select>
+                    
+                    <br>
+                    
+                    <label for="coord" class="label">Coordinates:</label>
+                    <input type="text" name="coord" id="coord" required>
 
-            <p>Description (What makes it Spooky?):</p>
-
-            <p>Address:</p>
-
-            <p>(Optional) Image of Location:</p>
-
+                    <br>
+                    
+                    <label for="photo" class="label">(Optional) Image of Location:</label>
+                    <input type="file" name="photo" id="photo" accept=image/*>
+                    
+                    <br>
+                    
+                    <input type="submit"/>
+                </fieldset>
+            </form>
+            
+            <div id="complete">
+                <br>
+                <p>Thank you for your submission! Your input was:</p>
+                <br>
+            </div>
+            
             <hr>
             <h4>
                 <p><i>Copyright @ 2017 CS146A-Group5</i></p>
             </h4>
+            <script src="./js/form.js">
+            </script>
         </section>
         </section>
     </body>

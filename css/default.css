@@ -5,10 +5,12 @@
 	padding: 3%;
 }
 
+
 .header{
 
     display: flex;
     flex-direction: column;
+
 }
 
 .nav{
@@ -34,13 +36,6 @@
 
 }
 
-.nav{
-}
-
-audio{
-    visibility:hidden;
-
-}
 
 body{
     background-color:slategrey;
@@ -60,6 +55,8 @@ h1{
     text-align: center;
     padding:5%;
     padding-bottom:0%;
+    background-color: black;
+    color: white;
 }
 
 h2{
@@ -67,6 +64,8 @@ h2{
     text-align: center;
     font-weight: normal;
     font-family: 'Lato', sans-serif;
+    padding:5%;
+    padding-bottom: 0%;
 }
 
 h3,h4{
@@ -74,7 +73,6 @@ h3,h4{
     font-weight: normal;
     text-align: center;
     padding:5%;
-    padding-bottom:0%;
 }
 
 .contact{
@@ -86,9 +84,12 @@ h3,h4{
 img{
 	display: block;
 	margin: 0 auto;
+	box-shadow: 0 0 2p dimgrey;
 }
 
-
+#complete{
+    display:none;
+}
 
 @media only screen and (min-width:800px){
     .page{
@@ -97,8 +98,9 @@ img{
         margin-right:auto;
         line-height:1.6;
     }
-
-
+    img{
+      max-width: 700px;
+    }
 }
 
 /* rules for tablets */
@@ -118,6 +120,9 @@ img{
 	h1{
 		line-height:1.0;/*fixes spacing if heading is too small for 1 line*/
 	}
+  img{
+      max-width: 350px;
+  }
 }
 
 /* rules for phones */
@@ -136,7 +141,8 @@ img{
 	h1{
 		line-height:1.0;/*fixes spacing if heading is too small for 1 line*/
 	}
-    
 
+  img{
+      max-width: 250px;
+  }
 }
-
