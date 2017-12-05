@@ -82,7 +82,7 @@ h3,h4{
 	text-decoration: underline;
 }
 
-/* magic code that centers images*/
+/*magic code that centers images*/
 img{
 	display: block;
 	margin: 0 auto;
@@ -139,3 +139,4 @@ img{
     
 
 }
+

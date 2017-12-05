@@ -2,14 +2,17 @@
 <html lang="en-US">
     <head>
 		<link rel="shortcut icon" href="img/ghost.ico">
-		<title>Spooky Places - About Us</title>
+		<title>Spooky Places - Locations</title>
       
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="./css/reset.css">
         <link rel="stylesheet" type="text/css" href="./css/default.css">
 		<link rel="stylesheet" type="text/css" href="./css/centerp.css">
+        
     </head>
     <body>
+        <script src="js/maps.js"></script>
         <section class="page">
         <section class="header">
 
@@ -25,12 +28,10 @@
                 <li><a href="./about.html">About Us</a></li>
             </ul>
         </section>
-
-        <!-- Will add Google Maps API for locations -->
         <section class="content">
 
             <h2>The Spooky List</h2>
-            <h4><br>Spooky Location No.1</h4>
+            <h4><br><a href="#" onClick="setQuery(40.743663,-74.026435);">Spooky Location No.1</a></h4>
             <img src="" alt="image">
             <p>Description of Spooky Place No.1</p>
 
@@ -54,11 +55,17 @@
 
             <p>Think our list is incomplete? <a href="./submit.html">Add to it yourself!</a></p>
 		
+           
+        
             <hr>
             <h4>
                 <p><i>Copyright @ 2017 CS146A-Group5</i></p>
             </h4>
-            </section>
-            </section>
+        </section>
+        </section>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG6yIz_3kY17wNCNNhss31UGIIB8bRQak&callback=initMap" async defer></script> -->
+        
+        
+        
 	</body>
 </html>
