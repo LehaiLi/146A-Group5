@@ -1,4 +1,5 @@
 var map;
+var marker;
 var latitude = 0;
 var longitude = 0;
 //alert(parseFloat("4.20"));
@@ -10,8 +11,12 @@ var longitude = 0;
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
 	center: {lat: latitude, lng: longitude},
-	zoom: 18
+	zoom: 17
 	});
+    marker = new google.maps.Marker({
+        position: {lat: latitude, lng: longitude},
+          map: map
+        });
 }
 /*function setStuff(lat,lng){
     localStorage["lat"] = parseFloat(lat);
