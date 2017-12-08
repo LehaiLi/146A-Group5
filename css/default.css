@@ -80,7 +80,7 @@ h3,h4{
 	text-decoration: underline;
 }
 
-/* magic code that centers images*/
+/*magic code that centers images*/
 img{
 	display: block;
 	margin: 0 auto;
@@ -141,6 +141,7 @@ img{
 	h1{
 		line-height:1.0;/*fixes spacing if heading is too small for 1 line*/
 	}
+
   img{
       max-width: 250px;
   }

@@ -2,14 +2,17 @@
 <html lang="en-US">
     <head>
 		<link rel="shortcut icon" href="img/ghost.ico">
-		<title>Spooky Places - About Us</title>
+		<title>Spooky Places - Locations</title>
       
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="./css/reset.css">
         <link rel="stylesheet" type="text/css" href="./css/default.css">
 		<link rel="stylesheet" type="text/css" href="./css/centerp.css">
+        
     </head>
     <body>
+        <script src="js/maps.js"></script>
         <section class="page">
         <section class="header">
 
@@ -25,40 +28,59 @@
                 <li><a href="./about.html">About Us</a></li>
             </ul>
         </section>
-
-        <!-- Will add Google Maps API for locations -->
         <section class="content">
 
             <h2>The Spooky List</h2>
-            <h4><br>Spooky Location No.1</h4>
-            <img src="" alt="image">
-            <p>Description of Spooky Place No.1</p>
+            
+           <h4><br><a href="#" onClick="setQuery(40.7581569,-74.08903090000001);">1. Snake Hill – Secaucus, NJ</a></h4>
+            <img src="location/image2.JPG" alt="image">
+            <p><b>Description:</b> Did you ever see the huge rock hanging over the Turnpike near Route 3? It used to be home to a psychiatric hospital and penitentiary, but was first a poor farm. Hundreds of ghosts are said to wander what used to be the grounds of these institutions.
+                <b>Address:</b>
+                Snake Hill
+            </p>
 
-            <h4><br>Spooky Location No.2</h4>
-            <img src="" alt="image">
-            <p>Description of Spooky Place No.2</p>
+            <h4><br><a href="#" onClick="setQuery(39.9501159,-74.5162641);">2. The Pine Barrens – South Jersey</a></h4>
+            <img src="location/image3.JPG" alt="image">
+            <p><b>Description:</b>
+                This vast area of land may look beautiful in the daytime. But at night, the deep woods and creepy noises scare off a lot of people. There are rumors that the Jersey Devil lives within, but no one knows for sure.
+                <b>Address:</b>
+                The Pine Barrens
+            </p>
 
-            <h4><br>Spooky Location No.3</h4>
-            <img src="" alt="image">
-            <p>Description of Spooky Place No.3</p>
+            <h4><br><a href="#" onClick="setQuery(40.5034249,-74.26927539999997);">3. Proprietary House – Perth Amboy, NJ</a></h4>
+            <img src="location/image1.JPG" alt="image">
+            <p><b>Description:</b> This was the home of Benjamin Franklin’s son, William. He was the last royal governor of New Jersey in 1777. The house is said to be haunted by Revolutionary War soldiers and a woman who peers out the dining room window.
+            <b>Address:</b>
+            149 Kearny Ave, Perth Amboy, NJ 08861
+            </p>
 
-            <h4><br>Spooky Location No.4</h4>
-            <img src="" alt="image">
-            <p>Description of Spooky Place No.4</p>
+            <h4><br><a href="#" onClick="setQuery(40.6312433,-74.58496860000002);">4. The Devil’s Tree – Bernards, NJ</a></h4>
+            <img src="location/image4.JPG" alt="image">
+            <p><b>Description:</b> 
+                On Mountain Road, you’ll find a tree with several axe marks on it. Rumor has it that a local farmer murdered his wife and children, then hung himself from a tree. It continues that anyone who tries to cut down the tree, their life will end.
+                <b>Address:</b>
+                181 Mountain Rd, Basking Ridge, NJ 07920</p>
 
-            <h4><br>Spooky Location No.5</h4>
-            <img src="" alt="image">
-            <p>Description of Spooky Place No.5</p>
+            <h4><br><a href="#" onClick="setQuery(41.1104037,-74.43208529999998);">5. Clinton Road – West Milford, NJ</a></h4>
+            <img src="location/image5.JPG" alt="image">
+            <p><b>Description:</b> Supposedly, a large white mansion resided here, but now it’s the home of a lot more than a mansion. According to Weird N.J., people have said that strange chants, writings, bodybags, and albinos have taken over the area. There has also been reports of random blue and white lights in the vicinity.
+            <b>Address:</b>
+            Clinton Road
+            </p>
 			
 			<hr>
 
             <p>Think our list is incomplete? <a href="./submit.html">Add to it yourself!</a></p>
 		
+           
+        
             <hr>
             <h4>
                 <p><i>Copyright @ 2017 CS146A-Group5</i></p>
             </h4>
-            </section>
-            </section>
+        </section>
+        </section>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG6yIz_3kY17wNCNNhss31UGIIB8bRQak&callback=initMap" async defer></script> -->
+
 	</body>
 </html>
